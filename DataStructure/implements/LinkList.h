@@ -34,9 +34,9 @@ public:
     
     LinkList();
     ~LinkList();
-    T* getItem(T data): // 查找元素并且返回元素的指针
+    T* getItem(T data); // 查找元素并且返回元素的指针
     void insert(T data);
-    T remove(T data);
+    void remove(T data);
     int size();
     
 };
@@ -71,28 +71,20 @@ void LinkList<T>::insert(T data){
 
 
 template <class T>
-T LinkList<T>::remove(T data){
+void LinkList<T>::remove(T data){
     LinkNode<T>* q = head;  // q记录p的上一个指向的位置
     LinkNode<T>* p = q->next;
     T temp;
-    int flag = 0;
     Assert(p!=NULL, "LinkList is Empty");   // 判断链表是否为空
     while (p) {
         if (p->data == data) {
             // 如果找到了当前的元素
             q->next = p->next;
-            temp = p->data;
-            flag = 1;
             delete(p);
             break;
         }
         q = p;
         p = p->next;
-    }
-    if (flag) {
-        return temp;
-    }else{
-        return nullptr;
     }
 }
 
@@ -115,7 +107,6 @@ T* LinkList<T>::getItem(T data){
     LinkNode<T>* p = head->next;
     T* temp = NULL;
     if (p==NULL) {return NULL;}
-    int flag = 0;
     while (p->next) {
         if (p->data == data) {
             temp = &(p->data);
