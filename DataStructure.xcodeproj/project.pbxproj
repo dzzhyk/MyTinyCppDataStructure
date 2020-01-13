@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		521BA2EE23CCD40E0096B7AC /* LinkList_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList_test.h; sourceTree = "<group>"; };
+		521BA2EF23CCDA040096B7AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		521FD0F323A1E74F00F5AA50 /* MySort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySort.h; sourceTree = "<group>"; };
 		521FD0F423A1E8BA00F5AA50 /* Sort_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort_test.h; sourceTree = "<group>"; };
 		52288964237558AF0093B4DE /* AVLTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 				523039E6236EF6DA0018688D /* test */,
 				523039E5236EF6BA0018688D /* implements */,
 				523039D9236EF5900018688D /* main.cpp */,
+				521BA2EF23CCDA040096B7AC /* README.md */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
