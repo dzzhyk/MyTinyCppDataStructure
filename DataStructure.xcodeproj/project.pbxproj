@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		521BA2EE23CCD40E0096B7AC /* LinkList_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList_test.h; sourceTree = "<group>"; };
 		521BA2EF23CCDA040096B7AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		521BA2F023CCDD250096B7AC /* LinkList_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList_2.h; sourceTree = "<group>"; };
+		521BA2F123CF54300096B7AC /* LinkList_2_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList_2_test.h; sourceTree = "<group>"; };
 		521FD0F323A1E74F00F5AA50 /* MySort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySort.h; sourceTree = "<group>"; };
 		521FD0F423A1E8BA00F5AA50 /* Sort_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort_test.h; sourceTree = "<group>"; };
 		52288964237558AF0093B4DE /* AVLTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				521FD0F323A1E74F00F5AA50 /* MySort.h */,
 				52405B8B23C3601900838686 /* ArrayList.h */,
 				52405B8E23C3732E00838686 /* LinkList.h */,
+				521BA2F023CCDD250096B7AC /* LinkList_2.h */,
 			);
 			path = implements;
 			sourceTree = "<group>";
@@ -114,6 +117,7 @@
 				521FD0F423A1E8BA00F5AA50 /* Sort_test.h */,
 				52405B8C23C369F500838686 /* ArrayList_test.h */,
 				521BA2EE23CCD40E0096B7AC /* LinkList_test.h */,
+				521BA2F123CF54300096B7AC /* LinkList_2_test.h */,
 			);
 			path = test;
 			sourceTree = "<group>";

@@ -16,6 +16,8 @@
 #include "./test/Sort_test.h"
 #include "./test/ArrayList_test.h"
 #include "./test/LinkList_test.h"
+#include "./test/LinkList_2_test.h"
+
 
 int main(int argc, const char * argv[]) {
 //    BSTree_test();
@@ -26,6 +28,7 @@ int main(int argc, const char * argv[]) {
 //    GraphUD_test();
 //    Sort_test();
 //    ArrayList_test();
-    LinkList_test();
+//    LinkList_test();
+    LinkList_2_test();
     return 0;
 }

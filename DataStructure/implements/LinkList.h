@@ -74,7 +74,6 @@ template <class T>
 void LinkList<T>::remove(T data){
     LinkNode<T>* q = head;  // q记录p的上一个指向的位置
     LinkNode<T>* p = q->next;
-    T temp;
     Assert(p!=NULL, "LinkList is Empty");   // 判断链表是否为空
     while (p) {
         if (p->data == data) {
