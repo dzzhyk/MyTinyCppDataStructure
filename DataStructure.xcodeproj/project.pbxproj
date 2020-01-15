@@ -63,6 +63,7 @@
 		523039CD236EF5900018688D = {
 			isa = PBXGroup;
 			children = (
+				521BA2EF23CCDA040096B7AC /* README.md */,
 				523039D8236EF5900018688D /* DataStructure */,
 				523039D7236EF5900018688D /* Products */,
 			);
@@ -82,7 +83,6 @@
 				523039E6236EF6DA0018688D /* test */,
 				523039E5236EF6BA0018688D /* implements */,
 				523039D9236EF5900018688D /* main.cpp */,
-				521BA2EF23CCDA040096B7AC /* README.md */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
